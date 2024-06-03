@@ -1,0 +1,21 @@
+.modal_box:focus {
+  outline: none !important;
+}
+
+.paystack_button {
+    border: none;
+    background: #2c2b2b;
+    padding: 15px 144px;
+    width: 100%;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .paystack_button {
+      padding: 13px 100px;
+    }
+  }
+  
