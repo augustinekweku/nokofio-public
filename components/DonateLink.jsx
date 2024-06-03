@@ -481,7 +481,9 @@ const DonateLink = ({ setDonateModalClose, onSucess, donationObj }) => {
             <FormRow>
               <Input
                 className="d-none animate__animated animate__fadeIn"
-                pattern="[0-9]*"
+                inputMode="decimal"
+                pattern="^\d+(\.\d{1,2})?$"
+                title="Please enter a valid decimal number (e.g., 1.5, 1.50)"
                 ref={otherAmountField}
                 required
                 max={500000}
