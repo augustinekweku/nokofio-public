@@ -187,7 +187,7 @@ const Login = () => {
 
       <Alert severity="info" sx={{ my: 2 }}>
         <Typography variant="body1">
-          Session probably expired, please login again
+          Session probably expired, please login again.
         </Typography>
       </Alert>
       <Form onSubmit={handleClick}>
